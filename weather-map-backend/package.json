@@ -1,0 +1,22 @@
+{
+  "name": "weathermapbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "build": "esbuild --bundle src/server.js --outfile=dist/app.js --minify --platform=node"
+  },
+  "author": "packia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38",
+    "nodemon": "^2.0.7"
+  }
+}

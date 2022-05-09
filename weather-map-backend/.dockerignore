@@ -1,0 +1,10 @@
+**/node_modules
+build
+.git
+.gitignore
+npm-debug.log
+Dockerfile*
+docker-compose*
+README.md
+LICENSE
+.vscode
